@@ -1,0 +1,48 @@
+{
+  "name": "100dayproject.org",
+  "authors": [
+    "Hai Le Phu <lephuhai0511@gmail.com>"
+  ],
+  "description": "100dayproject instruction able",
+  "main": "",
+  "keywords": [
+    "projects",
+    "instruction"
+  ],
+  "license": "MIT",
+  "homepage": "http://100dayproject.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.7.0"
+  },
+  "install": {
+    "path": "assets",
+    "sources": {
+      "bootstrap": [
+        "bower_components/bootstrap/dist/**"
+      ],
+      "jquery": [
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/jquery/dist/jquery.min.map"
+      ],
+      "components-font-awesome": {
+        "mapping": [
+          { "bower_components/components-font-awesome/css/font-awesome.min.css": "font-awesome.min.css" },
+          { "bower_components/components-font-awesome/fonts/FontAwesome.otf": "fonts/FontAwesome.otf" },
+          { "bower_components/components-font-awesome/fonts/fontawesome-webfont.eot": "fonts/fontawesome-webfont.eot" },
+          { "bower_components/components-font-awesome/fonts/fontawesome-webfont.svg": "fonts/fontawesome-webfont.svg" },
+          { "bower_components/components-font-awesome/fonts/fontawesome-webfont.ttf": "fonts/fontawesome-webfont.ttf" },
+          { "bower_components/components-font-awesome/fonts/fontawesome-webfont.woff": "fonts/fontawesome-webfont.woff" },
+          { "bower_components/components-font-awesome/fonts/fontawesome-webfont.woff2": "fonts/fontawesome-webfont.woff2" }
+        ]
+      }
+    }
+  }
+}
