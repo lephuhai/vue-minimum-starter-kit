@@ -3,11 +3,14 @@
     <img src="./assets/logo.png">
     <img src="/static/bootstrap.png">
     <p>{{ msg }}</p>
+    <p>{{ $t("home.hello") }}</p>
     <button class="btn btn-danger">Bootstrap CSS is running...</button>
   </div>
 </template>
 
-<style>
+<style lang="scss">
+
+  @import './styles/imports';
 
   *:focus {
     outline: none !important;
@@ -20,21 +23,20 @@
 
   #app {
     text-align: center;
+    p {
+      font-family: 'CompleteInHim', serif;
+      font-size: 32px;
+    }
   }
-
-  p {
-    font-family: 'CompleteInHim';
-    font-size: 32px;
-  }
-  @import '../assets/bootstrap/css/bootstrap.min.css'
 </style>
 
 <script>
   export default {
     data () {
       return {
-        msg: 'Vue Minimum Starter Kit'
+        msg: 'Vue Minimum Starter Kit @Machine'
       }
     }
   }
+
 </script>
