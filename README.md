@@ -15,6 +15,7 @@ The aim of this repository is to provide a template for developing [Vue](https:/
 - [ ] Support for code coverage via [isparta-loader](https://github.com/deepsweet/isparta-loader)
 - [ ] Test with [Mocha](http://mochajs.org/), [Chai](http://chaijs.com/) and [Sinon](http://sinonjs.org/)
 - [ ] Use [Karma](http://karma-runner.github.io/) to run the tests
+- [x] i18n
 - [x] Vuejs style using scss language
 
 ## Usage
@@ -36,6 +37,14 @@ $ npm run build
 # Start the production server with express
 $ npm start
 ```
+
+## Vue Dependencies
+
+* vue-router
+* vuex
+* vue-i18n
+* vue-lazyload
+* vue-progressbar
 
 ## Contribute
 
